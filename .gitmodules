@@ -1,0 +1,9 @@
+[submodule "DiscussionBoard/Libraries/RestKit"]
+	path = DiscussionBoard/Libraries/RestKit
+	url = git://github.com/RestKit/RestKit.git
+[submodule "DiscussionBoard/Libraries/three20"]
+	path = DiscussionBoard/Libraries/three20
+	url = git://github.com/facebook/three20.git
+[submodule "DiscussionBoard/Libraries/RKThree20"]
+	path = DiscussionBoard/Libraries/RKThree20
+	url = git@github.com:RestKit/RKThree20.git

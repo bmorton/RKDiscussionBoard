@@ -33,10 +33,11 @@ Building the Client
 -------------------
 
 The iOS example application utilizes RestKit and the Three20
-integration to drive the interface. We have bundled a binary
-build of Three20 to avoid adding any external dependencies and
-complexity. The Three20 static libraries are fat and the application
-will run in the simulator or on your device.
+integration to drive the interface. Both libraries are installed
+as Git submodules within the project. Before building the client,
+you must initialize the submodules:
+
+`git submodule update --init`
 
 If you wish to use your device, you will need to manually edit the
 base URL configuration in the DBEnvironment.h file (or build with 

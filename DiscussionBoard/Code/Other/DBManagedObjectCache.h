@@ -6,7 +6,7 @@
 //  Copyright 2011 Two Toasters. All rights reserved.
 //
 
-#import <RestKit/CoreData/RKManagedObjectCache.h>
+#import <RestKit/RKManagedObjectCache.h>
 
 /**
  * An implementation of the RestKit object cache. The object cache is
